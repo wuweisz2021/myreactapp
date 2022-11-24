@@ -2,8 +2,6 @@ import React from'react';
 import './App.css';
 
 
-
-
 function App() {
   const [color, setColor] = React.useState(JSON.parse(sessionStorage.getItem('color')) || "blue");
   const [count, setCount] = React.useState(JSON.parse(localStorage.getItem('count')) || 0);
